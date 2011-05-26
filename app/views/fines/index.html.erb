@@ -1,0 +1,29 @@
+<h1>Listing fines</h1>
+
+<table>
+  <tr>
+    <th>Fine amount</th>
+    <th>Comment</th>
+    <th>User</th>
+    <th>Event</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @fines.each do |fine| %>
+  <tr>
+    <td><%= fine.fine_amount %></td>
+    <td><%= fine.comment %></td>
+    <td><%= fine.user %></td>
+    <td><%= fine.event %></td>
+    <td><%= link_to 'Show', fine %></td>
+    <td><%= link_to 'Edit', edit_fine_path(fine) %></td>
+    <td><%= link_to 'Destroy', fine, :confirm => 'Are you sure?', :method => :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Fine', new_fine_path %>

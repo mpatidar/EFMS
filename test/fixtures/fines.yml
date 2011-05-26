@@ -1,0 +1,13 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  fine_amount: 1
+  comment: MyString
+  user: 
+  event: 
+
+two:
+  fine_amount: 1
+  comment: MyString
+  user: 
+  event: 

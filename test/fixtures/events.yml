@@ -1,0 +1,15 @@
+# Read about fixtures at http://ar.rubyonrails.org/classes/Fixtures.html
+
+one:
+  event_name: MyString
+  event_amount: 1
+  event_date: 2011-05-26
+  spend_amount: 1
+  user: 
+
+two:
+  event_name: MyString
+  event_amount: 1
+  event_date: 2011-05-26
+  spend_amount: 1
+  user: 
